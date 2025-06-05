@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #72c6b1;
+    background-color: #77b9a9;
     color: #333;
 }
 
@@ -25,14 +25,14 @@ nav ul li {
 }
 
 nav a {
-    color: rgb(165, 171, 220);
+    color: rgb(165, 220, 206);
     text-decoration: none;
 }
 
 section {
     padding: 20px;
     margin: 20px;
-    background-color: white;
+    background-color: rgb(238, 236, 236);
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -45,4 +45,45 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* --- Project Section Styles --- */
+.project-card {
+    background-color: #ffbcbc31; /* White background */
+    border: 1px solid #6f3131; /* Light grey border */
+    border-radius: 8px; /* Slightly rounded corners */
+    padding: 20px; /* Space inside the card */
+    margin-bottom: 25px; /* Space between project cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.project-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.project-card h3 {
+    color: rgb(109, 67, 67);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.project-card a {
+    display: inline-block; /* Allows padding and margin */
+    background-color: #9b5d5d; 
+    color: white; 
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none; 
+    margin-right: 10px; 
+    margin-top: 10px; 
+}
+
+.project-card a:hover {
+    background-color: #966f6f; 
 }
